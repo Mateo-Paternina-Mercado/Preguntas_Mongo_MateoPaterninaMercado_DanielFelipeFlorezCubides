@@ -1,0 +1,49 @@
+[
+    {
+        "coleccion_producto": "Este archivo tiene documentos de la coleccion productos",
+        "id": "",
+        "elaborado": "",
+        "producto": [
+            {
+                "nombre": "",
+                "precio": 0,
+                "disponible": "",
+                "ingredientes": {
+                    "nombre": "",
+                    "cantidad": ""
+                }
+            }
+        ],
+        "combos": [
+            {
+                "numeroCombo": "",
+                "producto": "",
+                "precio": 0,
+                "disponible": ""
+            }
+        ]
+    },
+    {
+        "coleccion_pedido": "Este archivo tiene documentos de la coleccion pedido",
+        "id": "",
+        "nombre":"",
+        "telefono":"",
+        "orden":[
+            {
+                "numeroOrden": 0,
+                "producto": "",
+                "precio": 0,
+                "fecha":"",
+                "adicional":{
+                    "nombre":"",
+                    "precioAdicional":0
+                },
+                "metodoPago":{
+                    "efectivo":0,
+                    "tarjeta":"",
+                    "nequi":"telefono"
+                }
+            }
+        ]
+    }
+]

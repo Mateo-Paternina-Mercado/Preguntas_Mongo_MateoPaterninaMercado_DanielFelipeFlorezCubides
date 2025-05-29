@@ -1,0 +1,12 @@
+
+{
+  "_ejemplo_de_documentos": "Esta edad es solo una estimación",
+  "_id": "1234567890abcdef12345678",
+  "nombre": "Juan Pérez",
+  "edad": 29,
+    "direccion": {
+        "calle": "Avenida 123",
+        "ciudad": "Ciudad X"
+    },
+    "telefonos": ["1234567890", "9876543210"]
+}

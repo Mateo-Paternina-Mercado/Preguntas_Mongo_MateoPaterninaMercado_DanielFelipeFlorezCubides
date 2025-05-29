@@ -1,0 +1,128 @@
+[
+    {
+      "id": "prod001",
+      "elaborado": "2025-05-01",
+      "producto": [
+        {
+          "nombre": "Pizza Margarita",
+          "precio": 9.99,
+          "disponible": true,
+          "ingredientes": {
+            "nombre": "Queso mozzarella, tomate, albahaca",
+            "cantidad": "250g"
+          }
+        },
+        {
+          "nombre": "Panzerotti de Jamón y Queso",
+          "precio": 7.5,
+          "disponible": true,
+          "ingredientes": {
+            "nombre": "Jamón, queso mozzarella, masa",
+            "cantidad": "200g"
+          }
+        },
+        {
+          "nombre": "Gaseosa 350ml",
+          "precio": 2.0,
+          "disponible": true,
+          "ingredientes": {
+            "nombre": "Bebida carbonatada",
+            "cantidad": "350ml"
+          }
+        },
+        {
+          "nombre": "Tiramisú",
+          "precio": 4.5,
+          "disponible": true,
+          "ingredientes": {
+            "nombre": "Café, queso mascarpone, bizcocho",
+            "cantidad": "150g"
+          }
+        },
+        {
+          "nombre": "Hamburguesa Clásica",
+          "precio": 8.99,
+          "disponible": true,
+          "ingredientes": {
+            "nombre": "Pan, carne, lechuga, tomate, queso",
+            "cantidad": "300g"
+          }
+        }
+      ],
+      "combos": [
+        {
+          "numeroCombo": "combo001",
+          "producto": "Pizza Margarita + Gaseosa",
+          "precio": 11.5,
+          "disponible": true
+        },
+        {
+          "numeroCombo": "combo002",
+          "producto": "Hamburguesa + Papas Fritas + Bebida",
+          "precio": 10.99,
+          "disponible": true
+        }
+      ]
+    },
+    {
+        "id": "pedido001",
+        "nombre": "Laura Martínez",
+        "telefono": "3004567890",
+        "paraLlevar": true,
+        "orden": [
+          {
+            "numeroOrden": 101,
+            "producto": "Pizza Margarita",
+            "precio": 9.99,
+            "fecha": "2025-05-29",
+            "adicional": {
+              "nombre": "Extra queso",
+              "precioAdicional": 1.5
+            },
+            "metodoPago": {
+              "efectivo": 0,
+              "tarjeta": "Mastercard",
+              "nequi": ""
+            }
+          },
+          {
+            "numeroOrden": 102,
+            "producto": "Tiramisú",
+            "precio": 4.5,
+            "fecha": "2025-05-29",
+            "adicional": {
+              "nombre": "Extra chocolate",
+              "precioAdicional": 0.5
+            },
+            "metodoPago": {
+              "efectivo": 0,
+              "tarjeta": "",
+              "nequi": "3004567890"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pedido002",
+        "nombre": "Carlos Gómez",
+        "telefono": "3011234567",
+        "paraLlevar": false,
+        "orden": [
+          {
+            "numeroOrden": 103,
+            "producto": "Hamburguesa Clásica",
+            "precio": 8.99,
+            "fecha": "2025-05-28",
+            "adicional": {
+              "nombre": "Papas grandes",
+              "precioAdicional": 2.0
+            },
+            "metodoPago": {
+              "efectivo": 10.99,
+              "tarjeta": "",
+              "nequi": ""
+            }
+          }
+        ]
+      }
+  ]
